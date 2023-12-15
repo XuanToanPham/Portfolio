@@ -37,7 +37,7 @@ export default function Header() {
     <motion.div
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ ease: "easeOut", duration: 0.6 }}
+      transition={{ ease: "easeOut", duration: 0.5 }}
       className="fixed top-0 flex justify-center w-[100%] h-[80px] backdrop-blur-xl bg-white/30"
     >
       <div className="flex flex-row justify-between align-middle w-[100%] lg:mx-24">
